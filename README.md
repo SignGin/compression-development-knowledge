@@ -4,6 +4,8 @@
 
 #### 이 블로그는 blogster를 사용하여 만들어졌습니다. Thanks!
 
+<a src="./content/blog">블로그 글 목록</a>
+
 <br/>
 <a src="./content/origin/basic-markdown-style-guide.md">블로그 글 마크다운 작성법</a>
 <br/>
