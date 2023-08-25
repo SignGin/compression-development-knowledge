@@ -1,12 +1,6 @@
 ---
 import { getBlogPostMeta } from "../lib/seo";
-import {
-  SITE_TITLE,
-  SITE_DESCRIPTION,
-  SITE_URL,
-  TWITTER_HANDLE,
-  MY_NAME,
-} from "../config";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL, MY_NAME } from "../config";
 
 export interface Props {
   title?: string;
@@ -40,8 +34,6 @@ const { meta, og, twitter } = getBlogPostMeta({
   ogImageAltText,
   ogImageWidth,
   ogImageHeight,
-  siteOwnerTwitterHandle: TWITTER_HANDLE,
-  contentAuthorTwitterHandle: TWITTER_HANDLE,
 });
 ---
 
